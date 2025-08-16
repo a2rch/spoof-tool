@@ -1,103 +1,107 @@
 # I.S.A Spoof Tool
 
-![Cyberpunk GIF](cyberpunk.gif)
+![Cyberpunk GIF](https://giffiles.alphacoders.com/524/52423.gif)
 
-A **powerful file spoofing & encryption tool** with a dark cyberpunk aesthetic, designed for advanced file manipulation and payload embedding. It combines stealth, automation, and visual appeal in one compact GUI.
+A **powerful, cross-platform file spoofing & encryption tool** with a dark cyberpunk aesthetic. Designed for advanced file manipulation, payload embedding, and stealth operations, it combines automation, security, and visual appeal in one compact package.
 
 ---
 
 ## ⚡ Features
 
-- **File Spoofing & Unicode Tricks**  
-  Rename files with fake extensions and Unicode characters for stealth.
+- **File Spoofing & Unicode Tricks:**  
+  Disguise files with fake extensions and Unicode characters for maximum stealth.
 
-- **AES Encryption**  
-  Encrypt any generated file with a password using `Fernet` symmetric encryption.
+- **AES Encryption:**  
+  Secure output files with password-based `Fernet` symmetric encryption.
 
-- **Batch Mode**  
-  Process multiple files/folders at once.
+- **Batch Processing:**  
+  Effortlessly process multiple files or folders at once.
 
-- **Auto-Open Files**  
-  Open generated files automatically on completion.
+- **Auto-Open:**  
+  Automatically open generated files when operations complete.
 
-- **Self-Destruct**  
-  Automatically remove generated files after a set timer.
+- **Self-Destruct:**  
+  Set a timer to automatically delete generated files after creation.
 
-- **Icon Embedding**  
-  Attach custom icons to files to make them appear legitimate.
+- **Custom Icon Embedding:**  
+  Attach custom icons to files to make them appear authentic.
 
-- **Cyberpunk Animated GUI**  
-  Sleek dark theme with animated GIF background for a futuristic look.
+- **Cyberpunk Animated GUI:**  
+  Futuristic dark theme with an animated GIF background.
 
-- **Real-time Console & Progress**  
-  See live logs, stats, and generation progress in the GUI.
+- **Real-time Console & Progress:**  
+  Track logs, stats, and generation progress live within the GUI.
 
-- **Cross-Platform Support**  
-  Works on **Windows** and **Linux** (requires PySide6 & Python 3.9+).
+- **Cross-Platform:**  
+  Runs on **Windows** and **Linux** (requires Python 3.9+ & PySide6).
 
 ---
 
-## 🛠 Installation
+## 🛠️ Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/a2rch/spoof-tool.git
+   cd spoof-tool
+   ```
 
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## 🚀 Usage
+
+1. **Run the GUI:**
+   ```bash
+   python I.S.A_SPOOF_TOOL.py
+   ```
+
+2. **Select** a file or folder to spoof.
+3. **Choose** Unicode spoofing options & templates.
+4. **Set desired options:**
+   - Batch Mode
+   - AES Encryption (enter password)
+   - Auto-Open
+   - Self-Destruct (set timer)
+5. **Pick a custom icon** (optional).
+6. **Click "Generate"** and monitor progress in real-time!
+
+---
+
+## 💎 Why Use I.S.A Spoof Tool?
+
+- Combines spoofing, encryption, and automation in a single, streamlined tool.
+- Compact GUI shows all essential controls—no clutter.
+- Animated cyberpunk background for a true hacker aesthetic.
+- Real-time logs and stats for complete transparency and control.
+- Built for advanced users who demand stealth, speed, and power.
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is for **educational purposes only**.  
+**Do NOT use** it for illegal activities. The author assumes **no responsibility** for misuse.
+
+---
+
+## 📦 Requirements
+
+- Python 3.9+
+- PySide6
+- cryptography
+- Faker
+- fpdf
+- python-docx
+
+Install dependencies with:
 ```bash
-git clone https://github.com/yourusername/cyberpunk-spoof-tool.git
-cd cyberpunk-spoof-tool
-
-2. Install dependencies :
-
 pip install -r requirements.txt
+```
 
-🚀 Usage
+---
 
-1. Run the GUI:
-
-python I.S.A_SPOOF_TOOL.py
-
-2. Select a file or folder to spoof.
-3. Choose Unicode option & template.
-4. Select desired options:
-
-- Batch mode
-
-- AES Encrypt (enter password)
-
-- Auto-Open
-
-- Self-Destruct (set timer)
-
-5.Pick custom icons (optional).
-6.Click Generate and watch the progress in real-time!
-
-💎 Why this tool is powerful
-
-- Combines file spoofing + encryption + automation in a single tool.
-
-- GUI is compact, showing all essential controls without taking excessive screen space.
-
-- Animated cyberpunk background adds a professional hacker-like aesthetic.
-
-- Real-time logs and statistics for full transparency of operations.
-
-- Designed for advanced users who need stealth, speed, and control.
-
-⚠️ Disclaimer
-
-This tool is for educational purposes only.
-Do not use it to perform illegal activities. The author is not responsible for any misuse
-
-📦 Requirements
-
-Python 3.9+
-
-PySide6
-
-cryptography
-
-Faker
-
-fpdf
-
-python-docx
-
+Feel free to customize or reach out for additional enhancements!
