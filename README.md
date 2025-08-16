@@ -1,4 +1,4 @@
-# I.S.A Spoof Tool 🖤💚
+# I.S.A Spoof Tool
 
 ![Cyberpunk GIF](cyberpunk.gif)
 
