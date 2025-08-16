@@ -97,10 +97,6 @@ This tool is for **educational purposes only**.
 - fpdf
 - python-docx
 
-Install dependencies with:
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
