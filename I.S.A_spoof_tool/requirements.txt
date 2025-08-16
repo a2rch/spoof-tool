@@ -1,0 +1,6 @@
+PySide6
+cryptography
+Faker
+fpdf
+python-docx
+pyyaml
